@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://murawakimitsuhiro.github.io/portfolio-react
+  "homepage": "https://murawakimitsuhiro.github.io/portfolio-react",
   "private": true,
   "dependencies": {
     "react": "^16.4.1",
@@ -11,7 +11,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "npm run build && gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
