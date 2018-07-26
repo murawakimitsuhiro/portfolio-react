@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import github_logo from './github-logo.png'
+import facebook_logo from './facebook-logo.png'
 import './App.css';
 
 class App extends Component {
@@ -29,6 +31,15 @@ class App extends Component {
         <div className="top-header">
           <div className="background-effect"></div>
           <h2 className="owner-name">Mitsuhiro Murawaki</h2>
+
+          <div className="service-links-container">
+            <a className="service-link" href="https://github.com/murawakimitsuhiro">
+              <img src={github_logo}/>
+            </a>
+            <a className="service-link" href="https://www.facebook.com/profile.php?id=100009198817209">
+              <img src={facebook_logo}/>
+            </a>
+          </div>
 
           <div className="introduction-container">
             <p className="affiliation">Keio University</p>
