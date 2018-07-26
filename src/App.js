@@ -56,9 +56,9 @@ class App extends Component {
               <span className="skill-chip">React</span>
             </p>
             <p>
-              <span className="skill-chip">Processing</span>
               <span className="skill-chip">openFrameworks(c++)</span>
               <span className="skill-chip">Arduino</span>
+              <span className="skill-chip">Processing</span>
             </p>
             <p className="skill-chips-container">
               <span className="skill-chip">Unity(C#)</span>
