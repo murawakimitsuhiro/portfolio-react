@@ -26,14 +26,45 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to {this.props.greet} + {this.state.name}</h1>
-        </header>
-        {this.state.greetings.map((g,i) => {
-          return <p key={i}>{g}</p>
-        })}
-        <input onKeyDown={this.handleClick}/>
+        <div className="top-header">
+          <div className="background-effect"></div>
+          <h2 className="owner-name">Mitsuhiro Murawaki</h2>
+
+          <div className="introduction-container">
+            <p className="affiliation">Keio University</p>
+
+            <p className="skill-chips-container">
+              <span className="skill-chip">Swift</span>
+              <span className="skill-chip">go</span>
+              <span className="skill-chip">Kotlin</span>
+            </p>
+            <p className="skill-chips-container">
+              <span className="skill-chip">TypeScript</span>
+              <span className="skill-chip">JavaScript</span>
+              <span className="skill-chip">Angular</span>
+              <span className="skill-chip">React</span>
+            </p>
+            <p>
+              <span className="skill-chip">Processing</span>
+              <span className="skill-chip">openFrameworks(c++)</span>
+              <span className="skill-chip">Arduino</span>
+            </p>
+            <p className="skill-chips-container">
+              <span className="skill-chip">Unity(C#)</span>
+              <span className="skill-chip">AWS</span>
+            </p>
+          </div>
+        </div>
+
+
+        {/*<header className="App-header">*/}
+          {/*<img src={logo} className="App-logo" alt="logo" />*/}
+          {/*<h1 className="App-title">Welcome to {this.props.greet} + {this.state.name}</h1>*/}
+        {/*</header>*/}
+        {/*{this.state.greetings.map((g,i) => {*/}
+          {/*return <p key={i}>{g}</p>*/}
+        {/*})}*/}
+        {/*<input onKeyDown={this.handleClick}/>*/}
       </div>
     );
   }
